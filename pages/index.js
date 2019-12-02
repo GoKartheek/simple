@@ -15,7 +15,7 @@ const Homepage = ({ t }) => {
     <React.Fragment>
         <main>
           <Header />
-          <div>
+          {/* <div>
             <Link href='/users'>
               <button
                 type='button'
@@ -30,7 +30,7 @@ const Homepage = ({ t }) => {
                 {t('operabase.general.ACCOUNT_SETTINGS_DIALOG_ADD_PHONE')}
               </button>
             </Link>
-          </div>
+          </div> */}
         </main>
         <Footer />
       </React.Fragment>
