@@ -1,7 +1,7 @@
 const express = require('express')
 const next = require('next')
-// const nextI18NextMiddleware = require('next-i18next/middleware').default
-const nextI18NextMiddleware = require('./middlewares/next-i18next-middleware').default
+const nextI18NextMiddleware = require('next-i18next/middleware').default // using i18next middleware
+// const nextI18NextMiddleware = require('./middlewares/next-i18next-middleware').default // using our own middleware
 
 const nextI18next = require('./i18n')
 // const rewriter = require('express-urlrewrite')

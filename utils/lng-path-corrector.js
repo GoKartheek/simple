@@ -67,7 +67,7 @@ export default (config, currentRoute, currentLanguage) => {
     const basePath = `${href.protocol}//${href.host}`
     const currentAs = as.replace(basePath, '')
     const subpath = subpathFromLng(config, currentLanguage)
-    as = `/${currentAs}/${subpath}`.replace(/\/$/, '')
+    as = `/${currentAs}/${subpath}`.replace(/\/$/, '') // changed the URL structure to meet Frontbase requirement 
     href.query.lng = currentLanguage
     href.query.subpath = subpath
     console.log(href)
