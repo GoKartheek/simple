@@ -15,7 +15,7 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-list-routes": "^0.1.4",
     "express-urlrewrite": "^1.2.0",
     "i18next": "^18.0.1",
